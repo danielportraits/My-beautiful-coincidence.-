@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#270b19">
+  <title>Para mi best friend ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="scene">
+    <section id="welcome" class="screen welcome-screen" aria-labelledby="welcome-title">
+      <div class="tiny-flower flower-a" aria-hidden="true">✿</div>
+      <div class="tiny-flower flower-b" aria-hidden="true">✿</div>
+      <div class="welcome-ornament" aria-hidden="true">
+        <svg class="lily lily-large" viewBox="0 0 220 220" role="img" aria-label="Lirio rojo">
+          <defs>
+            <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ff9aa8"/>
+              <stop offset=".45" stop-color="#e52c58"/>
+              <stop offset="1" stop-color="#7c102e"/>
+            </linearGradient>
+            <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#6b9b68"/>
+              <stop offset="1" stop-color="#183e32"/>
+            </linearGradient>
+          </defs>
+          <path d="M108 152 Q108 188 94 210" stroke="#547f4f" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M104 180 Q58 148 38 178 Q73 195 104 180" fill="url(#leaf)"/>
+          <path d="M106 191 Q143 154 171 174 Q147 201 106 191" fill="url(#leaf)"/>
+          <g transform="translate(110 104)">
+            <path d="M0 6 C-42 -8 -77 -58 -51 -88 C-19 -80 -4 -34 0 6Z" fill="url(#petal)"/>
+            <path d="M0 6 C-12 -43 -7 -91 15 -99 C38 -65 24 -22 0 6Z" fill="url(#petal)"/>
+            <path d="M0 6 C28 -39 61 -60 79 -42 C77 -9 35 9 0 6Z" fill="url(#petal)"/>
+            <path d="M0 6 C50 6 82 28 70 51 C39 61 10 32 0 6Z" fill="url(#petal)"/>
+            <path d="M0 6 C-15 49 -43 77 -62 59 C-68 28 -31 9 0 6Z" fill="url(#petal)"/>
+            <path d="M0 6 C-51 22 -82 10 -82 -14 C-56 -36 -19 -12 0 6Z" fill="url(#petal)"/>
+            <path d="M0 6 C-6 -25 -24 -48 -35 -54" stroke="#ffb4bd" stroke-width="2" opacity=".65" fill="none"/>
+            <path d="M0 6 C23 -25 43 -39 55 -41" stroke="#ffb4bd" stroke-width="2" opacity=".55" fill="none"/>
+            <g stroke="#f7bb71" stroke-width="2.2" stroke-linecap="round">
+              <path d="M0 8 L-21 -22"/><path d="M0 8 L6 -31"/><path d="M0 8 L33 -18"/><path d="M0 8 L39 12"/>
+            </g>
+            <g fill="#ffe3a5">
+              <circle cx="-21" cy="-22" r="3.2"/><circle cx="6" cy="-31" r="3.2"/><circle cx="33" cy="-18" r="3.2"/><circle cx="39" cy="12" r="3.2"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <p class="eyebrow">UNA PEQUEÑA SORPRESA PARA TI</p>
+      <h1 id="welcome-title">Hay algo bonito<br><em>que quiero decirte</em></h1>
+      <p class="welcome-copy">Porque algunas personas hacen florecer la vida sin siquiera intentarlo.</p>
+      <button id="open-letter" class="primary-button" type="button">
+        <span>Para mi best friend</span><span class="button-heart" aria-hidden="true">♥</span>
+      </button>
+      <p class="hint">Toca el botón para descubrir tu carta</p>
+    </section>
+
+    <section id="letter-screen" class="screen letter-screen hidden" aria-labelledby="letter-title">
+      <div class="letter-top-flower" aria-hidden="true">
+        <svg class="lily lily-small" viewBox="0 0 220 220">
+          <path d="M108 152 Q108 188 94 210" stroke="#547f4f" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M104 180 Q58 148 38 178 Q73 195 104 180" fill="#47734a"/>
+          <path d="M106 191 Q143 154 171 174 Q147 201 106 191" fill="#244a39"/>
+          <g transform="translate(110 104)">
+            <path d="M0 6 C-42 -8 -77 -58 -51 -88 C-19 -80 -4 -34 0 6Z" fill="#e34a67"/>
+            <path d="M0 6 C-12 -43 -7 -91 15 -99 C38 -65 24 -22 0 6Z" fill="#ff9aa8"/>
+            <path d="M0 6 C28 -39 61 -60 79 -42 C77 -9 35 9 0 6Z" fill="#bc2049"/>
+            <path d="M0 6 C50 6 82 28 70 51 C39 61 10 32 0 6Z" fill="#ee5c76"/>
+            <path d="M0 6 C-15 49 -43 77 -62 59 C-68 28 -31 9 0 6Z" fill="#9d173d"/>
+            <path d="M0 6 C-51 22 -82 10 -82 -14 C-56 -36 -19 -12 0 6Z" fill="#d62f56"/>
+            <g stroke="#ffd17c" stroke-width="2.2" stroke-linecap="round"><path d="M0 8 L-21 -22"/><path d="M0 8 L6 -31"/><path d="M0 8 L33 -18"/></g>
+            <g fill="#ffe3a5"><circle cx="-21" cy="-22" r="3.2"/><circle cx="6" cy="-31" r="3.2"/><circle cx="33" cy="-18" r="3.2"/></g>
+          </g>
+        </svg>
+      </div>
+      <p class="eyebrow title-eyebrow">PARA ALGUIEN MUY ESPECIAL</p>
+      <h2 id="letter-title" class="typed-title" aria-label="A veces, el amor llega en forma de amistad"></h2>
+      <div class="title-divider"><span>✦</span></div>
+      <article class="letter-card">
+        <p class="letter-greeting">Mi querida best friend,</p>
+        <div id="letter-copy" class="letter-copy">
+          <p>Estoy agradecido con la vida por regalarme la bonita oportunidad de conocerte. Entre tantas personas, tantas historias y tantos caminos, tuve la suerte de coincidir contigo.</p>
+          <p>Y hoy puedo decir que las coincidencias más bonitas sí existen, porque tú eres una de ellas. <span class="inline-heart">♥</span></p>
+          <p>No sé cuánto tiempo nos regalará la vida para compartir esta amistad, ni cuántas historias nos quedan por vivir, pero sí sé algo: deseo de corazón que esto que tenemos dure muchísimo tiempo.</p>
+          <p>Que nunca nos falten las conversaciones, las risas, las locuras, los pequeños detalles ni esas ganas de estar presentes, incluso en los días en que todo parezca ir mal.</p>
+          <p>Gracias por ser tú, por haber llegado a mi vida y por convertirte en alguien tan especial para mí. Si la vida me diera la oportunidad de volver a coincidir contigo entre miles de personas, espero que nuestros caminos volvieran a encontrarse.</p>
+          <p>Porque algunas personas llegan sin avisar y, sin darse cuenta, terminan ocupando un lugar muy bonito en nuestro corazón.</p>
+        </div>
+        <div class="letter-signoff">
+          <span>Con muchísimo cariño,</span>
+          <strong>tu best friend forever <span aria-hidden="true">♥</span></strong>
+        </div>
+      </article>
+      <p class="closing-note">Que nuestra amistad siga floreciendo. <span aria-hidden="true">❀</span></p>
+      <button id="music-toggle" class="music-button" type="button" aria-pressed="true">
+        <span class="music-icon" aria-hidden="true">♫</span> Música: encendida
+      </button>
+    </section>
+  </main>
+  <div id="flower-layer" class="flower-layer" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
